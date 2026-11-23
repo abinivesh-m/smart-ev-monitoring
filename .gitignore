@@ -1,0 +1,26 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Build artefacts
+*.bin
+*.elf
+*.map
+
+# Local secrets (keep a sanitised config.h in the repo instead)
+config.local.h
+secrets.h
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Logs captured from the serial monitor
+*.log
+serial_*.txt
